@@ -1,0 +1,135 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parsa Hadipour | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🌟</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <h2>Hi there!</h2>
+        <h1>I'm Parsa Hadipour</h1>
+        <p>I'm a 19-year-old Computer Science student at Sunway University. I enjoy building simple, interactive websites and exploring web technologies.</p>
+        <p>This portfolio documents my journey and showcases my growing skills and experiences. I'm just at the beginning, but I’m eager to learn and grow as a front-end developer.</p>
+        <a href="#contact" class="button">Contact Me »</a>
+      </div>
+      <div class="hero-right">
+        <img src="images/Parsa.png" alt="Parsa Hadipour" class="profile-img" />
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">My Skills</h2>
+      <ul class="skills-list">
+        <li>💻 HTML5, CSS3, JavaScript</li>
+        <li>🧠 Problem Solving & Debugging</li>
+        <li>🌐 Git & GitHub</li>
+        <li>📶 CCNA Networking Basics</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-container">
+
+        <div class="project-card">
+          <img src="images/webfundamentals-cover.png" alt="Web Fundamentals Cover">
+          <div class="project-content">
+            <h3 class="project-title">2508-WEB1201 Web Fundamentals</h3>
+            <p class="project-description">
+              This project showcases my final assignment for the Web Fundamentals course. I built a full webpage using HTML, CSS, and JavaScript.
+            </p>
+            <a href="https://parsahadipour.github.io/Portfolio/" class="project-btn" target="_blank">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/certificate.png" alt="Cisco Certificate" style="width:100%; border-radius:8px; margin-bottom:1rem;">
+          <h3>CCNA: Introduction to Networks</h3>
+          <p>
+            In NET1014 - Networking Principles, I explored networking fundamentals through Cisco’s CCNA platform and earned a certificate.
+            <br><br>Thanks to Cisco and Sunway University for this great opportunity.
+          </p>
+          <a href="certificate.pdf" target="_blank">View Certificate (PDF)</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+
+        <div class="contact-left">
+          <p>I'll respond within 2–3 business days. You may also contact me via:</p>
+          <ul>
+            <li><a href="mailto:parsahadipour04@gmail.com">📧 Email</a></li>
+            <li><a href="https://wa.me/601163976358" target="_blank">📱 WhatsApp</a></li>
+            <li><a href="https://github.com/Parsahadipour" target="_blank">💻 GitHub</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-right">
+          <form name="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." />
+
+            <label for="email">Email: <span class="error" id="email-error">Please enter a valid email</span></label>
+            <input type="email" id="email" name="email" placeholder="Your email.." />
+
+            <label for="message">Message: <span class="error" id="message-error">Message can't be empty</span></label>
+            <textarea id="message" name="message" rows="4" placeholder="Write something.."></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Find an issue with this page? <a href="#">Report it</a>.</p>
+    <div class="social-icons">
+      <a href="mailto:parsahadipour04@gmail.com">📧</a>
+      <a href="https://wa.me/601163976358" target="_blank">📱</a>
+      <a href="https://github.com/Parsahadipour" target="_blank">💻</a>
+    </div>
+    <div class="footer-links">
+      <p><strong>HELPFUL LINKS</strong></p>
+      <a href="#home">Home</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </div>
+    <p>Copyright © 2025 Parsa Hadipour - All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
